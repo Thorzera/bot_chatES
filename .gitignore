@@ -1,0 +1,30 @@
+# Environment files — NEVER commit these
+.env
+.env2
+.env3
+*.env
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Database and backups
+data/
+data2/
+data3/
+shared/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
